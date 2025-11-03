@@ -38,13 +38,19 @@ Estruturas utilizadas:
           SISTEMA DE CONTROLE DE ALUNOS E NOTAS
 
 1 - Cadastrar aluno
+
 2 - Registrar notas
+
 3 - Listar alunos e médias
+
 4 - Buscar aluno
+
 5 - Mostrar aprovados e reprovados
+
 6 - Relatórios
+
 0 - Sair
-=======================================================
+
 Escolha uma opção: 1
 Nome do aluno: Ana
 Aluno Ana cadastrado com matrícula 1001.
