@@ -19,7 +19,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == '0':
-        print("Saindo do sistema...")
+        print("Encerrando o Sistema")
         break 
 
     elif opcao == '1':
@@ -171,3 +171,4 @@ while True:
     else:
 
         print("Opção inválida. Por favor, escolha um número de 0 a 6")
+
