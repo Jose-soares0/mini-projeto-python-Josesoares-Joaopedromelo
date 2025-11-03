@@ -1,6 +1,8 @@
 # mini-projeto-python-Josesoares-Joaopedromelo
 Trabalho Referente a segunda nota de Python, materia da professora Heloisa.
 
+Projeto 1: Sistema De Cadastro De Produtos
+
 Funcionalidades:
 
 O sistema apresenta um menu interativo com as seguintes opções:
@@ -85,7 +87,7 @@ Ao escolher a opção 5, o usuário informa o nome do produto que deseja remover
 Exemplo 6 – Sair:
 Escolhendo a opção 0, o sistema é encerrado e volta para o terminal.
 
-Sistema de Controle de Alunos e Notas:
+Projeto 2:Sistema de Controle de Alunos e Notas
 
 Descrição do Projeto:
 O sistema foi criado para auxiliar professores no registro e consulta do desempenho dos alunos.  
