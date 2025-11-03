@@ -103,12 +103,12 @@ while True:
                 else: 
                     reprovados.append(nome)
         
-        print("\n** Alunos Aprovados (Média >= 7.0) **")
+        print(" Alunos Aprovados (Média >= 7.0) ")
         if not aprovados: print("(Nenhum)")
         else:
             for nome in aprovados: print(f"- {nome}")
                 
-        print("\n** Alunos Reprovados (Média < 7.0) **")
+        print(" Alunos Reprovados (Média < 7.0) ")
         if not reprovados: print("(Nenhum)")
         else:
             for nome in reprovados: print(f"- {nome}")
@@ -122,14 +122,14 @@ while True:
         sub_opcao = input("Escolha um relatório: ")
         
         if sub_opcao == '1': 
-            print("\n** Relatório: Alunos Cadastrados **")
+            print(" Relatório: Alunos Cadastrados ")
             if not nomes_cadastrados:
                 print("Nenhum aluno cadastrado.")
             else:
                 for nome in nomes_cadastrados: print(f"- {nome}")
 
         elif sub_opcao == '2': 
-            print("\n** Relatório: Médias Individuais **")
+            print(" Relatório: Médias Individuais ")
             if not alunos_notas:
                 print("Nenhum aluno cadastrado.")
             else:
@@ -143,7 +143,7 @@ while True:
                         print(f"Aluno: {nome} - Média: {media:.2f}")
         
         elif sub_opcao == '3': 
-            print("\n** Relatório: Aprovados e Reprovados **")
+            print(" Relatório: Aprovados e Reprovados ")
             aprovados_rel = []
             reprovados_rel = []
             
@@ -156,12 +156,12 @@ while True:
                     if media >= 7: aprovados_rel.append(nome)
                     else: reprovados_rel.append(nome)
             
-            print("\nAprovados (Média >= 7.0):")
+            print("nAprovados (Média >= 7.0):")
             if not aprovados_rel: print("(Nenhum)")
             else:
                 for nome in aprovados_rel: print(f"- {nome}")
                     
-            print("\nReprovados (Média < 7.0):")
+            print("Reprovados (Média < 7.0):")
             if not reprovados_rel: print("(Nenhum)")
             else:
                 for nome in reprovados_rel: print(f"- {nome}")
@@ -169,4 +169,5 @@ while True:
             print("Opção de relatório inválida.")
 
     else:
+
         print("Opção inválida. Por favor, escolha um número de 0 a 6")
