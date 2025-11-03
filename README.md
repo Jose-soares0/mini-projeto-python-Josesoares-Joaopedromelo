@@ -32,4 +32,25 @@ Estruturas utilizadas:
  `tupla` para armazenar as notas de forma que elas não possam ser mudadas;
  `listas temporárias` para registrar notas antes de transformar em tuplas.
 
+## 💻 **Exemplo de uso**
 
+text
+=======================================================
+          SISTEMA DE CONTROLE DE ALUNOS E NOTAS
+=======================================================
+1 - Cadastrar aluno
+2 - Registrar notas
+3 - Listar alunos e médias
+4 - Buscar aluno
+5 - Mostrar aprovados e reprovados
+6 - Relatórios
+0 - Sair
+=======================================================
+Escolha uma opção: 1
+Nome do aluno: Ana
+Aluno Ana cadastrado com matrícula 1001.
+Depois de registrar notas:
+
+Será printado:
+Copiar código
+1001 - Ana | Notas: (8.0, 9.0, 7.5) | Média: 8.17 | Aprovado
